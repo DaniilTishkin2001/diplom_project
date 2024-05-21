@@ -12,7 +12,7 @@ py -m venv env
 git clone "https://github.com/DaniilTishkin2001/diplom_project.git"
 
 # Затем перейдите в папку site
-"cd site"
+# cd site
 
 Перетащите файл requirements.txt в папку diplom_project
 # Установите зависимости
@@ -25,4 +25,4 @@ python manage.py migrate
 
 # Запустите сервер
 
-python3 manage.py runserver
+python manage.py runserver
