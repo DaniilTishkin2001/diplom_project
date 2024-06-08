@@ -26,6 +26,9 @@ python manage.py migrate
 
 python manage.py runserver
 
+# Cоздайте учетную запись админа
+
+python manage.py createsuperuser
 
 # О проекте
 Этот проект о создания постов пользователями при проверки модерацией.
